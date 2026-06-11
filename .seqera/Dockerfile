@@ -40,6 +40,8 @@ RUN apt-get update --yes && apt-get install --yes --no-install-recommends \
     sudo \
     libatomic1 \
     curl \
+    openssh-client \
+    sl \
     openjdk-17-jdk \
     openjdk-17-jre && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
