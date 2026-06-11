@@ -94,7 +94,7 @@ ENV LANG=C.UTF-8 \
     GIT_EDITOR="code --wait" \
     VSCODE_ROOT=${VSCODE_ROOT} \
     SHELL=bash \
-    PATH=${PATH}:/workspace/.nextflow-bin
+    PATH=${PATH}:/workspace/.nextflow-bin:/usr/games
 
 RUN ${VSCODE_ROOT}/bin/openvscode-server --install-extension nextflow.nextflow
 
